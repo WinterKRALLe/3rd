@@ -1,0 +1,57 @@
+Start testing: Oct 03 08:44 CEST
+----------------------------------------------------------
+1/2 Testing: MathFuncsTest.AddTest
+1/2 Test: MathFuncsTest.AddTest
+Command: "/home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests" "--gtest_filter=MathFuncsTest.AddTest" "--gtest_also_run_disabled_tests"
+Directory: /home/winter/cpp/dneskajednoduse/build/tests
+"MathFuncsTest.AddTest" start time: Oct 03 08:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/winter/cpp/dneskajednoduse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MathFuncsTest.AddTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathFuncsTest
+[ RUN      ] MathFuncsTest.AddTest
+[       OK ] MathFuncsTest.AddTest (0 ms)
+[----------] 1 test from MathFuncsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MathFuncsTest.AddTest" end time: Oct 03 08:44 CEST
+"MathFuncsTest.AddTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: MathFuncsTest.SubTest
+2/2 Test: MathFuncsTest.SubTest
+Command: "/home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests" "--gtest_filter=MathFuncsTest.SubTest" "--gtest_also_run_disabled_tests"
+Directory: /home/winter/cpp/dneskajednoduse/build/tests
+"MathFuncsTest.SubTest" start time: Oct 03 08:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/winter/cpp/dneskajednoduse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MathFuncsTest.SubTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathFuncsTest
+[ RUN      ] MathFuncsTest.SubTest
+[       OK ] MathFuncsTest.SubTest (0 ms)
+[----------] 1 test from MathFuncsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MathFuncsTest.SubTest" end time: Oct 03 08:44 CEST
+"MathFuncsTest.SubTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 03 08:44 CEST

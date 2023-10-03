@@ -1,0 +1,5 @@
+add_test([=[MathFuncsTest.AddTest]=]  /home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests [==[--gtest_filter=MathFuncsTest.AddTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MathFuncsTest.AddTest]=]  PROPERTIES WORKING_DIRECTORY /home/winter/cpp/dneskajednoduse/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MathFuncsTest.SubTest]=]  /home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests [==[--gtest_filter=MathFuncsTest.SubTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MathFuncsTest.SubTest]=]  PROPERTIES WORKING_DIRECTORY /home/winter/cpp/dneskajednoduse/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  mathfuncs_tests_TESTS MathFuncsTest.AddTest MathFuncsTest.SubTest)

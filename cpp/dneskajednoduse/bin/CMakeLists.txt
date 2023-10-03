@@ -1,0 +1,3 @@
+add_executable(dneskajednoduse main.cpp)
+
+target_link_libraries(dneskajednoduse mathfuncs)

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mathfuncs_tests.dir/mathfuncs_tests.cpp.o -o mathfuncs_tests  ../lib/libgtest_main.a ../src/mathfuncs/libmathfuncs.a ../lib/libgtest.a 
