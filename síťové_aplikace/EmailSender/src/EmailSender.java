@@ -17,7 +17,7 @@ public class EmailSender {
      * If the Socket throws an exception during sending, the exception is not handled by this method.
      */
     public void send(String from, String to, String subject, String text) throws IOException {
-        os.write(("HELO pcMarek\r\n").getBytes());
+        os.write(("HELO fromArch\r\n").getBytes());
         os.write(("MAIL FROM: " + from + "\r\n").getBytes());
         os.write(("RCPT TO: " + to + "\r\n").getBytes());
         os.write("DATA\r\n".getBytes());
