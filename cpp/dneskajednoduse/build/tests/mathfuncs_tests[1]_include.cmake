@@ -1,5 +1,0 @@
-if(EXISTS "/home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests[1]_tests.cmake")
-  include("/home/winter/cpp/dneskajednoduse/build/tests/mathfuncs_tests[1]_tests.cmake")
-else()
-  add_test(mathfuncs_tests_NOT_BUILT mathfuncs_tests_NOT_BUILT)
-endif()

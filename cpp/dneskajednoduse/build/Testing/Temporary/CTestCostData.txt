@@ -1,3 +1,0 @@
-MathFuncsTest.AddTest 2 0.00117159
-MathFuncsTest.SubTest 2 0.00153914
----

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/dneskajednoduse.dir/main.cpp.o -o dneskajednoduse  ../src/mathfuncs/libmathfuncs.a 
