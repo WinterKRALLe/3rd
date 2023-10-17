@@ -1,6 +1,6 @@
 main:\
 cmake -G "Unix Makefiles" .. && cmake --build . && ./bin/dneskajednoduse\
 tests:\
-cmake -G "Unix Makefiles" .. && cmake --build . && ctest\
+cmake -G "Unix Makefiles" .. && cmake --build . && ctest
 
 pro Win to bude "MinGW Makefiles" (cmake --help) a namísto && bude ;
